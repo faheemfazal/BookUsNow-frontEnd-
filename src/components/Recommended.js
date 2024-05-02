@@ -24,7 +24,7 @@ export default function RecommendedShow() {
     } catch {}
   }, []);
 
-  console.log(recommendedShow, "lllllllllllllllllllllllllllll ");
+
 
   return (
     <>

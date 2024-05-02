@@ -13,7 +13,7 @@ export default function UpcomingEvents() {
   const [fetching, setFetching] = useState(false); // Flag to prevent multiple API calls
 
   useEffect(() => {
-    console.log("start", "1useEffect");
+    console.log("start", "1useEffect"); 
     fetchEvents();
   }, []);
 

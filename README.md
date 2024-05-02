@@ -1,3 +1,33 @@
+Events Website
+Overview
+This website displays upcoming and recommended events fetched from provided APIs. It supports horizontal scrolling for recommended events and lazy loading for upcoming events.
+
+
+Setup
+Clone the repository frontend : https://github.com/faheemfazal/BookUsNow-frontEnd-.git
+Clone the repository backend : https://github.com/faheemfazal/backendbookusnow.git
+Install dependencies: npm install both back end and frontend
+Start the development for frontend: npm start
+Start the development for backend: nodemon start
+
+
+Live Site
+The website is hosted on Vercel: https://frontendbookusnow.vercel.app/
+
+
+
+Evaluation Criteria
+
+Responsiveness
+API Integration
+Horizontal Scrolling
+Lazy Loading
+CSS Usage
+Performance
+Code Quality
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,14 +4,14 @@ This website displays upcoming and recommended events fetched from provided APIs
 
 
 Setup
-Clone the repository frontend : https://github.com/faheemfazal/BookUsNow-frontEnd-.git
-Clone the repository backend : https://github.com/faheemfazal/backendbookusnow.git
-Install dependencies: npm install both back end and frontend
-Start the development for frontend: npm start
-Start the development for backend: nodemon start
+Clone the repository frontend : https://github.com/faheemfazal/BookUsNow-frontEnd-.git <br/>
+Clone the repository backend : https://github.com/faheemfazal/backendbookusnow.git <br/>
+Install dependencies: npm install both back end and frontend <br/>
+Start the development for frontend: npm start <br/>
+Start the development for backend: nodemon start <br/>
 
 
-Live Site
+Live Site <br/>
 The website is hosted on Vercel: https://frontendbookusnow.vercel.app/
 
 

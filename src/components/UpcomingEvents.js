@@ -13,7 +13,7 @@ export default function UpcomingEvents() {
   const [fetching, setFetching] = useState(false); // Flag to prevent multiple API calls
 
   useEffect(() => {
-    console.log("start", "1useEffect"); 
+   
     fetchEvents();
   }, []);
 
@@ -39,7 +39,7 @@ export default function UpcomingEvents() {
 
   useEffect(() => {
     if (fetching) {
-      console.log("start", "2useEffect");
+     
 
       fetchEvents();
     }
@@ -48,7 +48,7 @@ export default function UpcomingEvents() {
   const fetchEvents = async () => {
     setLoading(true);
     try {
-      console.log(page, "Current Page");
+    
       const response = await axios.get(
         `${process.env.REACT_APP_EVENTS_API}&page=${page}`
       );

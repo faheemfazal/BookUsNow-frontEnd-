@@ -70,12 +70,12 @@ export default function UpcomingEvents() {
         </div>
         <p className="text-black underline cursor-pointer mr-4">See all</p>
       </div>
-      <div className="w-full flex flex-col h-screen">
-        <div className="flex gap-6 justify-center flex-wrap  items-center py-5 w-[100%]">
+      <div className="w-full lg:px-20 flex flex-col h-screen">
+        <div className="flex gap-6  justify-center flex-wrap  items-center py-5 w-[100%]">
           {events.map((data, index) => (
             <div
               key={index}
-              className="w-90  h-80 ml-3 bg-white  rounded-xl border-2 border-[#B0BABF]"
+              className="w-90  h-80 ml-3 bg-white  rounded-xl border-2 border-[#E8EFF2]"
             >
               <div className="h-60 p-2 ">
                 <div
